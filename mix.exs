@@ -72,7 +72,7 @@ defmodule CurrencycloudClient.MixProject do
       {:cowboy_telemetry, "~> 0.4", only: :test},
       {:cowlib, "~> 2.12", only: :test},
       {:ranch, "~> 1.8", only: :test},
-      {:mime, "~> 2.0", override: true}
+      {:mime, "~> 2.0"}
     ]
   end
 
