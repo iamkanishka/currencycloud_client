@@ -140,11 +140,11 @@ defmodule CurrencycloudClient.MixProject do
   end
 
   defp dialyzer do
-  [
-    plt_file: {:no_warn, "priv/plts/dialyzer.plt"},
-    plt_add_apps: [:mix, :jason, :finch, :ex_unit, :bypass],
-    flags: [:error_handling, :underspecs],
-    ignore_warnings: ".dialyzer_ignore.exs"
-  ]
-end
+    [
+      plt_file: {:no_warn, "priv/plts/dialyzer.plt"},
+      plt_add_apps: [:mix, :jason, :finch, :ex_unit, :bypass],
+      flags: [:error_handling, :underspecs],
+      ignore_warnings: ".dialyzer_ignore.exs"
+    ]
+  end
 end
